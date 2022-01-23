@@ -30,7 +30,7 @@ public class Main {
                         }
                         output.put(array);
                     } else {
-                        output.put(field.getAnnotation(Name.class).value(), field.get(student));
+                       output.put(field.getAnnotation(Name.class).value(), field.get(student));
                     }
                 }
             }

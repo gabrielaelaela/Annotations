@@ -7,7 +7,7 @@ public class Student {
     @Name("studentName")
     public String name;
     @Name("studentName1")
-    public String surname = "cfhgvjk";
+    public String surname;
 
     public String sth;
 

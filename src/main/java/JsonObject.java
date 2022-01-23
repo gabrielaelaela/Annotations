@@ -38,6 +38,7 @@ public class JsonObject {
     }
 
     private Object toJson(Object input) {
+        if (input == null) return null;
         try {
             if (input.getClass().equals(String.class)) {
                 return "\"" + input + "\"";
